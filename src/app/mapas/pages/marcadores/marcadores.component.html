@@ -9,7 +9,7 @@
 
     <li *ngFor="let marcador of marcadores; let i = index" 
         class="list-group-item" 
-        (click)="irMarcador(marcador.marker)"
+        (click)="irMarcador(marcador.marker!)"
         [ngStyle]="{
             'background-color' : marcador.color
         }"
