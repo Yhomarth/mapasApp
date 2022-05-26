@@ -30,7 +30,7 @@ export class MiniMapaComponent implements AfterViewInit {
       style: 'mapbox://styles/mapbox/streets-v11',
       center: this.lngLat,
       zoom: 15,
-      //interactive : false
+      interactive : false
       });
 
       new mapboxgl.Marker()
